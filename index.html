@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bestratingsbedrijf Van de Goor</title>
+  <link rel="icon" href="V.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-slate-800 font-sans tracking-wide">
+
+  <header class="fixed w-full bg-white shadow-sm z-50 border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
+
+      <!-- logo + nazwa firmy -->
+      <div class="flex items-center space-x-3">
+        <!-- Logo po lewej -->
+        <img src="V.png" alt="Logo" class="h-10 w-auto">
+
+        <!-- Nazwa firmy w dwóch wierszach -->
+        <div class="flex flex-col">
+          <a href="#" class="font-bold text-2xl text-slate-900 tracking-tight">
+            Van de <span class="text-red-600">Goor</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- menu -->
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#hero"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Home</a>
+        <a href="#services"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Services</a>
+        <a href="#about"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">About
+          Us</a>
+        <a href="#why"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Why
+          Us</a>
+        <a href="#gallery"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Gallery</a>
+        <!-- <a href="#careers"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Careers</a> -->
+        <a href="#contact"
+          class="text-sm uppercase tracking-wider font-semibold text-slate-600 hover:text-red-600 transition duration-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero"
+    class="relative h-[500px] flex items-center justify-center text-center text-white opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+    <!-- background image -->
+    <div class="absolute inset-0">
+      <img
+        src="https://images.ctfassets.net/5kq8dse7hipf/1Nas0g2TSys797flJUBZGj/756ba8e28d7fc8406f95488d922c259d/Feature-block-paving-cost.jpg"
+        class="w-full h-full object-cover">
+    </div>
+
+    <!-- dark overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- content -->
+    <div class="relative z-10 max-w-2xl">
+
+      <h1 class="text-4xl md:text-5xl font-bold">
+        Sterk straatwerk. Kwaliteit onder de voeten.
+      </h1>
+
+      <p class="mt-6 text-lg">
+        Professionele bestrating voor tuin, oprit en terras
+      </p>
+
+      <div class="mt-8">
+        <a href="tel:+31555215169"
+          class="bg-red-600 text-white px-8 py-4 rounded font-semibold hover:bg-red-700 shadow-lg transition duration-300 uppercase tracking-wider text-sm">
+          Bell Nu
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-slate-900">
+
+    <div class="max-w-6xl mx-auto px-6 text-center">
+
+      <h2 class="text-3xl font-bold text-white">
+        Onze diensten
+      </h2>
+
+      <p class="mt-4 text-slate-300">
+        Professionele bestrating voor opritten, terrassen en bedrijfsterreinen.
+      </p>
+
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- service 1 -->
+        <div
+          class="bg-slate-800 rounded-lg shadow-sm border border-slate-700 hover:border-red-500 hover:scale-105 transition-all duration-300 transform overflow-hidden flex flex-col">
+          <img src="tile1.jpg" alt="Oprit aanleggen" class="w-full h-48 object-cover">
+          <div class="p-6 flex-1">
+            <h3 class="text-xl text-white font-semibold">
+              Oprit aanleggen
+            </h3>
+            <p class="mt-3 text-gray-300">
+              Een stevige en stijlvolle oprit die past bij de uitstraling van uw woning. Wij zorgen voor een stabiele
+              ondergrond en een strak resultaat.
+            </p>
+          </div>
+        </div>
+
+        <!-- service 2 -->
+        <div
+          class="bg-slate-800 rounded-lg shadow-sm border border-slate-700 hover:border-red-500 hover:scale-105 transition-all duration-300 transform overflow-hidden flex flex-col">
+          <img src="tile2.jpg" alt="Terras bestraten" class="w-full h-48 object-cover">
+          <div class="p-6 flex-1">
+            <h3 class="text-xl text-white font-semibold tracking-tight">
+              Terras bestraten
+            </h3>
+            <p class="mt-3 text-slate-400">
+              Geniet van uw tuin op een prachtig aangelegd terras. Of u nu kiest voor keramische tegels of natuursteen,
+              wij realiseren uw droomterras.
+            </p>
+          </div>
+        </div>
+
+        <!-- service 3 -->
+        <div
+          class="bg-slate-800 rounded-lg shadow-sm border border-slate-700 hover:border-red-500 hover:scale-105 transition-all duration-300 transform overflow-hidden flex flex-col">
+          <img src="tile3.jpg" alt="Tuinpaden en sierbestrating" class="w-full h-48 object-cover">
+          <div class="p-6 flex-1">
+            <h3 class="text-xl text-white font-semibold tracking-tight">
+              Tuinpaden en sierbestrating
+            </h3>
+            <p class="mt-3 text-slate-400">
+              Functionele en decoratieve paden die uw tuin verbinden. Wij leggen sierbestrating in diverse patronen voor
+              een unieke look.
+            </p>
+          </div>
+        </div>
+
+
+  </section>
+
+  <!-- ABOUT US -->
+  <section id="about" class="py-20 bg-gray-100 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- tekst -->
+        <div>
+          <h2 class="text-3xl font-bold text-slate-800">
+  Over Ons Bedrijf
+</h2>
+
+<p class="mt-6 text-slate-800">
+  Schoonmaakbedrijf Dick van Laar & Zn is al sinds <span class="font-bold text-slate-800">1965</span> een begrip in de regio Apeldoorn op het gebied van professionele bestrating en terreinonderhoud. Als familiebedrijf met decennia aan ervaring hebben wij een sterke reputatie opgebouwd door onze betrouwbaarheid, vakmanschap en langdurige relaties met onze klanten.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Onze dagelijkse werkzaamheden bestaan uit het aanleggen van hoogwaardige bestrating voor opritten, terrassen, parkeerplaatsen en bedrijfsterreinen. Wij zorgen voor een strak en duurzaam resultaat dat perfect aansluit bij de uitstraling van uw woning of bedrijfspand.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Wij werken met <span class="font-bold text-slate-800">flexibele</span> planningen die zijn afgestemd op de wensen van onze klanten. Onze focus ligt altijd op persoonlijke service, de hoogste kwaliteit materialen en heldere communicatie gedurende het hele project.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Sommige van onze klanten vertrouwen al <span class="font-bold text-slate-800">meer dan 50 jaar</span> op onze expertise.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Veiligheid en precisie staan bij ons centraal. Al onze machines en gereedschappen worden regelmatig gekeurd en gecertificeerd, zodat wij elk project veilig, efficiënt en volgens de hoogste standaarden kunnen uitvoeren.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Wij zijn gespecialiseerd in zowel traditioneel straatwerk als moderne machinale bestrating, waarbij we gebruik maken van eigen professioneel materieel.
+</p>
+
+<p class="mt-4 text-slate-800">
+  Sinds 1995 hebben wij ons verder gespecialiseerd in complexe projecten en grootschalige terreininrichting met gecertificeerde vakmensen.
+</p>
+        </div>
+        <!-- obraz -->
+        <div class="relative w-full mb-20 lg:mb-32">
+  
+  <img 
+    src="AboutCompany.jpg" 
+    alt="Bruk service praca główne" 
+    class="rounded-3xl shadow-lg w-full h-auto object-cover"
+  >
+
+  <div class="absolute -bottom-12 -right-6 md:-right-12 w-2/3 lg:w-3/4">
+      <img 
+        src="kostka.jpg" 
+        alt="Bruk service detale" 
+        class="rounded-2xl shadow-4xl aspect-[4/3] object-cover"
+      >
+  </div>
+  
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why" class="py-20 bg-slate-900 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center">
+        <h2 class="text-3xl text-white font-bold">
+          Waarom voor ons kiezen
+        </h2>
+        <p class="mt-4 text-slate-400">
+          Een betrouwbaar bestratingsbedrijf dat al jaren in de regio actief is.
+        </p>
+      </div>
+      <div class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+
+       <!-- item -->
+<div>
+  <div class="text-4xl flex flex-col items-center text-center">
+    <img src="trophy_ic.png" alt="Paving Icon" class="w-12 h-12">
+  </div>
+  <h3 class="mt-4 font-semibold text-lg text-white">20+ Jaar Ervaring</h3>
+  <p class="mt-2 text-slate-400">
+    Jarenlange ervaring in bestrating voor opritten, terrassen en tuinen.
+  </p>
+</div>
+
+<!-- item -->
+<div>
+   <div class="text-4xl flex flex-col items-center text-center">
+    <img src="house_ic.png" alt="house Icon" class="w-12 h-12">
+  </div>
+  <h3 class="mt-4 font-semibold text-lg text-white">Specialist in Bestrating</h3>
+  <p class="mt-2 text-slate-400">
+    Professionele aanleg van opritten, terrassen, paden en complete tuinen.
+  </p>
+</div>
+
+<!-- item -->
+<div>
+   <div class="text-4xl flex flex-col items-center text-center">
+    <img src="bricks_ic.png" alt="bricks Icon" class="w-12 h-12">
+  </div>
+  <h3 class="mt-4 font-semibold text-lg text-white">Specialist in Bestrating</h3>
+  <p class="mt-2 text-slate-400">
+    Professionele aanleg van opritten, terrassen, paden en complete tuinen.
+  </p>
+</div>
+
+<!-- item -->
+<div>
+   <div class="text-4xl flex flex-col items-center text-center">
+    <img src="handShake_ic.png" alt="hands Icon" class="w-12 h-12">
+  </div>
+  <h3 class="mt-4 font-semibold text-lg text-white">Specialist in Bestrating</h3>
+  <p class="mt-2 text-slate-400">
+    Professionele aanleg van opritten, terrassen, paden en complete tuinen.
+  </p>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-20 bg-slate-800 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold text-white">
+         Ons werk
+        </h2>
+        <p class="mt-4 text-slate-400">
+          Bekijk enkele van onze recente projecten.
+        </p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <img src="https://hgs24.pl/environment/cache/images/productGfx_2645_600_600/Kostka-6cm.webp?overlay=1"
+          class="rounded-xl shadow object-cover h-64 w-full">
+        <img src="https://bat.pl/media/6a/13/64/1688124734/kostka.webp"
+          class="rounded-xl shadow object-cover h-64 w-full">
+        <img src="https://natrix.pl/wp-content/uploads/2025/06/kostka-brukowa-na-podjazd.jpg"
+          class="rounded-xl shadow object-cover h-64 w-full">
+        <img
+          src="https://gladio.pl/f/gladio-kostka-brukowa-ogrodzenia-cegielka-szary_s05.jpg"
+          class="rounded-xl shadow object-cover h-64 w-full">
+        <img src="https://foruminicjatywmiejskich.pl/wp-content/uploads/2021/04/patokostka.jpg"
+          class="rounded-xl shadow object-cover h-64 w-full">
+        <img src="https://jadar.pl/wp-content/uploads/2025/09/10_KATALOG_KSZTALT_I_FORMA_jp_8a.jpg"
+          class="rounded-xl shadow object-cover h-64 w-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREERS / VACANCIES -->
+  <!-- <section id="careers" class="py-20 bg-gray-50 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold">Vacancies</h2>
+      <p class="mt-4 text-slate-600">Join our team! Check our available positions below.</p>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+         Job 1 
+        <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:border-red-500 transition-colors">
+          <div class="text-4xl mb-4">🧹</div>
+          <h3 class="font-semibold text-xl">Part-time Cleaning Staff</h3>
+          <p class="mt-2 text-slate-600">32 hours per week, Monday to Friday (06:00 - 12:25)</p>
+          <p class="mt-2 text-slate-600">Tasks: Perform cleaning duties together with colleagues at our clients’
+            premises.</p>
+          <p class="mt-2 text-slate-600">Requirements: Team player, neat and precise, preferably with driving license B
+            and cleaning experience.</p>
+          <p class="mt-2 font-semibold text-red-600">Available: Yes, start in consultation.</p>
+          <a href="#contact"
+            class="inline-block mt-4 bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition">
+            Apply Now
+          </a>
+        </div>
+        Job 2 
+        <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:border-red-500 transition-colors">
+          <div class="text-4xl mb-4">[YOUR ICON]</div>
+          <h3 class="font-semibold text-xl">Full-time Cleaning Staff / Window Cleaner</h3>
+          <p class="mt-2 text-slate-600">38 hours per week, Monday to Friday (07:00 - 15:30)</p>
+          <p class="mt-2 text-slate-600">Tasks: Independently and with colleagues perform various cleaning duties and
+            window cleaning at clients’ locations.</p>
+          <p class="mt-2 text-slate-600">Requirements: Team player, neat and precise, preferably with driving license B
+            and cleaning experience.</p>
+          <p class="mt-2 font-semibold text-red-600">Available: Yes, immediate start.</p>
+          <a href="#contact"
+            class="inline-block mt-4 bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition">
+            Apply Now
+          </a>
+        </div>
+      </div>
+      <p class="mt-12 text-slate-600">
+        Currently no vacancies? We’re always looking for motivated people, so maybe next time there will be a position
+        for you!
+      </p>
+    </div>
+  </section> -->
+
+  <!-- CONTACT -->
+  <section id="contact"
+    class="pt-19 pb-12 bg-white text-black opacity-0 translate-y-6 transition-all duration-700 ease-out">
+    <div class="pt-3 max-w-4xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold">
+       Vraag een gratis offerte aan
+      </h2>
+      <p class="mt-2 text-lg text-slate-600">
+       Neem vandaag nog contact met ons op voor professionele bestratingsaanleg.
+      </p>
+      <div class="mt-8 space-y-2 text-lg">
+        <p>
+          📞 Telefoon:
+          <a href="tel:+31555215169" class="underline font-semibold">
+            055-5215169
+          </a>
+        </p>
+        <p>
+          ✉️ Email:
+          <a href="mailto: schoonmaak@vanlaar-info.nl" class="underline font-semibold">
+            info@company.nl
+          </a>
+        </p>
+      </div>
+      <div class="mt-10 ">
+        <a href="tel:+31555215169"
+          class="bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-slate-800 transition">
+          Bel Nu
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-slate-950 text-slate-400 py-8 text-center text-sm">
+    © 2026 Bruk Van de Goor. All rights reserved.
+  </footer>
+  <script src="scroll_effect.js"></script>
+</body>
